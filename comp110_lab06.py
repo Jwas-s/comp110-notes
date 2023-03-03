@@ -6,12 +6,20 @@ Exercises from lab 06, dealing with string accumualators.
 
 
 def create_edited_string(text_with_edit_marks):
+
     """ Function that returns a sting with editing applied. """
 
     final_str = ""
 
     for ch in text_with_edit_marks:
-        final_str = final_str + ch
+        if ch == "!":
+            pass
+        elif ch == "^":
+            pass 
+        elif ch == "_":
+            pass
+        else:
+            final_str = final_str + ch
 
     return final_str
 
