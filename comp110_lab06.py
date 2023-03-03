@@ -7,7 +7,7 @@ Exercises from lab 06, dealing with string accumualators.
 
 def create_edited_string(text_with_edit_marks):
 
-    """ Function that returns a sting with editing applied. """
+    """ Function that returns a sting with editing applied. im adding this """
 
     final_str = ""
 
